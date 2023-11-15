@@ -1,4 +1,6 @@
-const socket = io("https://socketback-psi.vercel.app");
+const socket = io("https://socketback-psi.vercel.app", {
+  withCredentials: true, // если требуется передавать куки
+});
 const messageContainer = document.getElementById("message");
 const messageForm = document.getElementById("send");
 const messageInput = document.getElementById("input");
