@@ -1,4 +1,4 @@
-const socket = io("https://socketback-gray.vercel.app");
+const socket = io("https://socketback-psi.vercel.app");
 const messageContainer = document.getElementById("message");
 const messageForm = document.getElementById("send");
 const messageInput = document.getElementById("input");
