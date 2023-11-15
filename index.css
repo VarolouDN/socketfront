@@ -1,0 +1,74 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 40vw;
+  background-color: aliceblue;
+}
+
+#message {
+  font-size: large;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+#message div {
+  color: red;
+}
+
+#message div.mymessage {
+  color: blue;
+}
+#send {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+#input {
+  width: 70%;
+  height: 50px;
+  border: 2px green solid;
+  border-radius: 10px;
+  font-size: large;
+}
+
+#button {
+  width: 20%;
+  font-size: large;
+  border-radius: 10px;
+  border-color: rebeccapurple;
+  color: red;
+}
+
+@media /*(min-width: 720px) */ (max-width: 1080px) {
+  .container {
+    margin: 48px;
+    line-height: 29px;
+    font-size: 16px;
+    height: 50vw;
+  }
+
+  #send {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #input {
+    display: block;
+    width: 70%;
+    height: 50px;
+    border: 2px green solid;
+    border-radius: 10px;
+    font-size: large;
+  }
+  #button {
+    width: 70%;
+    display: block;
+    height: 50px;
+  }
+}
