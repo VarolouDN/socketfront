@@ -1,4 +1,4 @@
-const socket = io("https://socketback-psi.vercel.app/socket.io", {
+const socket = io("https://socketback-psi.vercel.app", {
   withCredentials: true, // если требуется передавать куки
 });
 const messageContainer = document.getElementById("message");
